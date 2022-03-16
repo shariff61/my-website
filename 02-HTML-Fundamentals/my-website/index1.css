@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  background-color: whitesmoke;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgb(247, 240, 233);
+  position: relative;
+}
+.header {
+  margin-top: 30px;
+  padding: 20px 0;
+  background-color: rgba(151, 118, 118, 0.315);
+  text-align: center;
+  position: relative;
+}
+nav a:link {
+  margin-right: 20px;
+  text-decoration: none;
+}
+nav a:link:last-child {
+  margin-right: 0;
+  margin-top: 5px;
+  display: inline-block;
+}
+article {
+  padding: 10px;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 2rem;
+}
+p {
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+h3 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+ul,
+ol {
+  margin-left: 50px;
+}
+aside {
+  border-top: 4px solid gray;
+  border-bottom: 4px solid gray;
+  padding: 30px 0;
+  background-color: #bd9696;
+}
+aside h4 {
+  margin: 15px 0;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.like {
+  background-color: aquamarine;
+  padding: 20px;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+h1::after {
+  content: "TOP";
+  background-color: gold;
+  font-size: 28px;
+  position: absolute;
+  right: 130px;
+  top: 15%;
+}
